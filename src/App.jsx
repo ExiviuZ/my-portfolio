@@ -263,6 +263,32 @@ function App() {
                 </a>
               </div>
             </div>
+            <div className="mt-[2rem] flex-1 max-w-[300px] mx-auto sm:max-w-[290px] md:mx-[0] sm:mt-[0] border-solid border-[1px] p-[1rem] border-white rounded-[10px] flex flex-col">
+              <img
+                src="insure.webp"
+                alt=""
+                className="mb-[2rem] rounded-[25px] max-h-[200px] object-cover object-top"
+              />
+              <p className="text-[1.4rem] mb-[1rem] font-[600] tracking-[2px]">
+                Insure Landing Page
+              </p>
+              <div className="flex gap-[1rem] items-center justify-center">
+                <a
+                  href="https://github.com/ExiviuZ/insure-landing-page/"
+                  target="_blank"
+                  className="px-[1.25rem] text-[12px] py-[1rem] uppercase border-[1px] font-[500] transition-colors border-solid border-white rounded-full hover:text-black hover:bg-white"
+                >
+                  Github
+                </a>
+                <a
+                  href="https://exiviuz.github.io/insure-landing-page/"
+                  target="_blank"
+                  className="px-[1.25rem] text-[12px] py-[1rem] uppercase border-[1px] font-[500] transition-colors border-solid border-white rounded-full hover:text-black hover:bg-white"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
           </div>
         </section>
       </main>
